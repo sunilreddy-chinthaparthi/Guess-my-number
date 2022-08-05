@@ -112,6 +112,7 @@ h1 {
 @media (max-width: 600px) {
   .guess {
     width: 100px;
+    font-size: 2rem;
   }
 }
 
