@@ -41,8 +41,13 @@ main {
 }
 
 .right {
-  width: 52rem;
-  font-size: 2rem;
+  width: 520px;
+  font-size: 20px;
+}
+@media (max-width: 600px) {
+  .right {
+    font-size: 12px;
+  }
 }
 
 /* ELEMENTS STYLE */
@@ -54,6 +59,11 @@ h1 {
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
 }
 
 .number {
@@ -70,10 +80,15 @@ h1 {
 }
 
 .between {
-  font-size: 1.4rem;
+  font-size: 15px;
   position: absolute;
-  top: 40px;
-  right: 50px;
+  top: 30px;
+  right: 40px;
+}
+@media (max-width: 600px) {
+  .between {
+    font-size: 7px;
+  }
 }
 
 .again {
@@ -94,6 +109,11 @@ h1 {
   display: block;
   margin-bottom: 3rem;
 }
+@media (max-width: 600px) {
+  .guess {
+    width: 100px;
+  }
+}
 
 .btn {
   border: none;
@@ -104,6 +124,12 @@ h1 {
   padding: 2rem 3rem;
   cursor: pointer;
 }
+@media (max-width: 600px) {
+  .btn {
+    font-size: 10px;
+    padding: 10px 15px;
+  }
+}
 
 .btn:hover {
   background-color: #ccc;
@@ -111,7 +137,7 @@ h1 {
 
 .message {
   margin-bottom: 8rem;
-  height: 3rem;
+  height: 30px;
 }
 
 .label-score {
