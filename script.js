@@ -44,9 +44,7 @@ document.querySelector('.check').addEventListener('click', function () {
       //     ? 'guess a smaller number'
       //     : 'guess a larger number';
       displayMessage(
-        guess > secreatNumber
-          ? 'guess a smaller number'
-          : 'guess a larger number'
+        guess > secreatNumber ? 'guess smaller 👎' : 'guess larger 👍'
       );
       score--;
       document.querySelector('.score').textContent = score;
